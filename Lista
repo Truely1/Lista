@@ -1,0 +1,8 @@
+import random
+al1 = input('Escolha o primeiro aluno')
+al2 = input('Escolha o segundo aluno')
+al3 = input('Escolha o terceiro aluno')
+lista = [al1,al2,al3]
+sorteado = random.shuffle(lista)
+
+print('A ordem ficará {}'.format(lista))
